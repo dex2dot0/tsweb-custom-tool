@@ -1,0 +1,39 @@
+{
+	"name": "tsweb-custom-tool",
+	"version": "1.0.0",
+	"description": "Typescript SSF App",
+	"keywords": [
+		"ngtypes",
+		"ssf",
+		"node",
+		"web",
+		"encompass"
+	],
+	"author": "dex2dot0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "concurrently \"vite --port=3001\" \"lt --port 3001 --subdomain ssfct\"",
+		"build": "vite build",
+		"serve": "vite preview",
+		"start": "vite",
+		"test:ts": "npx tsc --noEmit"
+	},
+	"devDependencies": {
+		"@tanstack/router-plugin": "^1.78.2",
+		"@types/elliemae__em-ssf-guest": "^1.19.0",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.2",
+		"concurrently": "^9.0.1",
+		"localtunnel": "^2.0.2",
+		"typescript": "^5.7.2",
+		"vite": "^5.4.8"
+	},
+	"dependencies": {
+		"@elliemae/em-ssf-guest": "^1.11.3",
+		"@tanstack/react-router": "^1.78.2",
+		"@tanstack/router-devtools": "^1.78.2",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	}
+}
