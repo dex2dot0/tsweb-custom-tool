@@ -27,7 +27,7 @@
 		"concurrently": "^9.0.1",
 		"localtunnel": "^2.0.2",
 		"typescript": "^5.7.2",
-		"vite": "^5.4.8"
+		"vite": "^6.4.2"
 	},
 	"dependencies": {
 		"@elliemae/em-ssf-guest": "^1.11.3",
